@@ -29,7 +29,7 @@ void main() {
         print("How many pizzas do you want of large?");
         int quantity = int.parse(stdin.readLineSync()!);
         int total = 10 * quantity;
-        print("Your Total Payment is: $total USD");
+        print("Your Total Payment is: \$$total USD");
         break;
 
       case "exit":
