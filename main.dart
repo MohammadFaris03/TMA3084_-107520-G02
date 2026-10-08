@@ -10,14 +10,14 @@ void main() {
       print("How many pizzas do you want of small?)");
       int quantity = int.parse(stdin.readLineSync()!);
       int total = 5 * quantity;
-      print("Your Total Payment is: $total");
+      print("Your Total Payment is: \$$total");
       break;
 
     case 'medium':
       print("How many pizzas do you want of medium?)");
       int quantity = int.parse(stdin.readLineSync()!);
       int total = 7 * quantity;
-      print("Your Total Payment is: $total");
+      print("Your Total Payment is: \$$total");
       break;
 
     case 'large':
