@@ -37,7 +37,7 @@ void main() {
         break;
 
       default:
-        print("Invalid pizza size. Please try again.");
+        print("Invalid");
     }
   }
 }
